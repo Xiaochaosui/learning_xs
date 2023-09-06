@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Algorithm_test",
+					"jsonFile" : "directory-Algorithm_test-Debug-25bd550c071038d13ad5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Algorithm_test",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning_Cpp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Algorithm_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Algorithm_test::@f748fe5ea6ade2e2c8b3",
+					"jsonFile" : "target-Algorithm_test-Debug-5dd53e358f425d6fa1ef.json",
+					"name" : "Algorithm_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learning_Cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning_Cpp-Debug-1cfcf35e70e68ca760e6.json",
+					"name" : "learning_Cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/data/xcsy/code/learning_Cpp/cmake-build-debug",
+		"source" : "/data/xcsy/code/learning_Cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
